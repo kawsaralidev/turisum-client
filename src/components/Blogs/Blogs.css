@@ -1,0 +1,12 @@
+.blogs-container{
+   background-color: lightblue;
+   border-radius: 10px;
+   padding-right: 20px;
+}
+.blogs-container:hover{
+   background-color: rgb(180, 190, 190);
+   border-radius: 10px;
+   padding-right: 20px;
+   box-shadow: 0px 0px 10px lightgray;
+   transition: .5s;
+}

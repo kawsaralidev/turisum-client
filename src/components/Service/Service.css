@@ -1,0 +1,21 @@
+.services-container:hover{
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 10px;
+    transition: 0.5s ;
+}
+.img{
+    overflow: hidden;
+}
+.services-container img:hover{
+    box-shadow: 0px 3px 4px;
+    border-radius: 10px;
+    transform: scale(1.6);
+    transition: 1.7s ease;
+}
+.services-btn{
+    background-color: rgb(87, 83, 83);
+}
+.services-btn:hover{
+background-color: rgb(29, 175, 243);
+
+}
