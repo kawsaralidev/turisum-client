@@ -11,12 +11,12 @@ const Order = () => {
     const [offers, setOffers] = useState([]);
     console.log(offers)
     useEffect(() => {
-        fetch(`https://pacific-reaches-62302.herokuapp.com/services/${id}`)
+        fetch(`https://enigmatic-shore-34663.herokuapp.com/services/${id}`)
             .then((res) => res.json())
             .then((data) => setOffers(data));
     }, []);
     const handleBookingBtn = () => {
-        axios.post("https://pacific-reaches-62302.herokuapp.com/booking", offers).then((res) => {
+        axios.post("https://enigmatic-shore-34663.herokuapp.com/booking", offers).then((res) => {
             if (res.data.insertedId) {
                 alert("Successfully");
             }

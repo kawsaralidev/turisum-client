@@ -8,7 +8,7 @@ const AddNewService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data)
-        axios.post('https://pacific-reaches-62302.herokuapp.com/services', data)
+        axios.post('https://enigmatic-shore-34663.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully')

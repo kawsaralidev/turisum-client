@@ -7,7 +7,7 @@ const Details = () => {
 
 
     useEffect(() => {
-        fetch(`https://pacific-reaches-62302.herokuapp.com/services/${Id}`)
+        fetch(`https://enigmatic-shore-34663.herokuapp.com/services/${Id}`)
             .then(res => res.json())
             .then(data => setDetails(data))
     }, [])

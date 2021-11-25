@@ -11,7 +11,7 @@ const Service = (props) => {
 
     const handleBooking = () => {
 
-        // axios.post("https://pacific-reaches-62302.herokuapp.com/booking", props.service)
+        // axios.post("https://enigmatic-shore-34663.herokuapp.com/booking", props.service)
 
         //     .then((res) => {
         //         if (res.data.insertedId) {

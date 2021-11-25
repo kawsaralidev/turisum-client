@@ -6,7 +6,7 @@ const ManageBooking = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        fetch('https://pacific-reaches-62302.herokuapp.com/booking')
+        fetch('https://enigmatic-shore-34663.herokuapp.com/booking')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])

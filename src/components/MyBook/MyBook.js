@@ -12,7 +12,7 @@ const MyBook = (props) => {
     const handleDelete = (id) => {
         const deleted = window.confirm('are you sure? delete')
         if (deleted) {
-            const url = `https://pacific-reaches-62302.herokuapp.com/booking/${id}`
+            const url = `https://enigmatic-shore-34663.herokuapp.com/booking/${id}`
             console.log(url)
             fetch(url, {
                 method: 'DELETE'
